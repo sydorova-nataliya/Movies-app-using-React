@@ -1,0 +1,14 @@
+.info{
+    background-color: rgb(102, 18, 102);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% ;
+    &__title{
+        font-size: 36px;
+    }
+    &__subtitle{
+        font-size: 20px;
+    }
+}
