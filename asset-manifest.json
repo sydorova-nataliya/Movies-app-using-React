@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sydorova-nataliya/sydorova-nataliya.github.io/static/css/main.b208ad83.css",
-    "main.js": "/sydorova-nataliya/sydorova-nataliya.github.io/static/js/main.46403e0d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/sydorova-nataliya/sydorova-nataliya.github.io/static/js/787.28cb0dcd.chunk.js",
-    "static/media/header-back.jpg": "/sydorova-nataliya/sydorova-nataliya.github.io/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
-    "index.html": "/sydorova-nataliya/sydorova-nataliya.github.io/index.html",
-    "main.b208ad83.css.map": "/sydorova-nataliya/sydorova-nataliya.github.io/static/css/main.b208ad83.css.map",
-    "main.46403e0d.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/static/js/main.46403e0d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/css/main.b77aee56.css",
+    "main.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/main.1f16614c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/787.28cb0dcd.chunk.js",
+    "static/media/header-back.jpg": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
+    "index.html": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/index.html",
+    "main.b77aee56.css.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/css/main.b77aee56.css.map",
+    "main.1f16614c.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/main.1f16614c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b208ad83.css",
-    "static/js/main.46403e0d.js"
+    "static/css/main.b77aee56.css",
+    "static/js/main.1f16614c.js"
   ]
 }
