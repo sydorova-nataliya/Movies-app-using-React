@@ -1,23 +1,16 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
+import { setMovies } from "../store/movies/actions";
 
 const useGetData=(url)=>{
-    const [data, setData] = useState([]);
-    const [error, setError] = useState(null);
-    const [loading, setLoading] = useState(false);
-    
+    // const [loading, setLoading] = useState(false);
     useEffect(()=>{
-        setLoading(true);
+        // setLoading(true);
     fetch(url)
         .then(res=>res.json())
-        .then(data=>setData(data))
-        .catch(error=>setError(error))
-        .finally(()=> setLoading(false))
+        .then(data=>{setMovies(data)})
+
+        // .finally(()=> setLoading(false))
     },[])
 
-    return{
-        data,
-        error,
-        loading
-    }
 }
 export default useGetData;
