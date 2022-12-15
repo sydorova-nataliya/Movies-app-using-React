@@ -1,0 +1,29 @@
+.form{
+    margin-bottom: 30px;
+    &__required{
+        margin: 10px 0;
+    }
+    &__input{
+        
+        width: 40vw;
+        border: 2px solid #7922CC;
+        border-radius: 25px;
+        padding: 1%;
+    }
+    &__submit{
+        border: #4b167d;
+        background-color: #9d6dc9;
+        color: white;
+        min-width: 100px;
+        border-radius: 25px;
+        padding: 15px 30px;
+        font-size:  1vw;
+        margin-left: 1%;
+        font-weight: bold;
+        &:hover{
+            cursor: pointer;
+            background-color: #7738b6;
+            text-decoration: underline;
+        }
+    }
+}
