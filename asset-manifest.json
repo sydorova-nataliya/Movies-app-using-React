@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/css/main.c470f33a.css",
+    "main.js": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/js/main.17844f38.js",
+    "static/js/787.28cb0dcd.chunk.js": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/header-back.jpg": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
+    "index.html": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/index.html",
+    "main.c470f33a.css.map": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/css/main.c470f33a.css.map",
+    "main.17844f38.js.map": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/js/main.17844f38.js.map",
+    "787.28cb0dcd.chunk.js.map": "/sydorova-nataliya/sydorova-nataliya.gitgub.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c470f33a.css",
+    "static/js/main.17844f38.js"
+  ]
+}
