@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/css/main.b77aee56.css",
-    "main.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/main.1f16614c.js",
-    "static/js/787.28cb0dcd.chunk.js": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/787.28cb0dcd.chunk.js",
-    "static/media/header-back.jpg": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
-    "index.html": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/index.html",
-    "main.b77aee56.css.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/css/main.b77aee56.css.map",
-    "main.1f16614c.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/main.1f16614c.js.map",
-    "787.28cb0dcd.chunk.js.map": "/sydorova-nataliya/sydorova-nataliya.github.io/movies/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Movies-app-using-React/static/css/main.abf548cf.css",
+    "main.js": "/Movies-app-using-React/static/js/main.c02796c7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Movies-app-using-React/static/js/787.28cb0dcd.chunk.js",
+    "static/media/header-back.jpg": "/Movies-app-using-React/static/media/header-back.bb5912b2ccd7c2c7bbe5.jpg",
+    "index.html": "/Movies-app-using-React/index.html",
+    "main.abf548cf.css.map": "/Movies-app-using-React/static/css/main.abf548cf.css.map",
+    "main.c02796c7.js.map": "/Movies-app-using-React/static/js/main.c02796c7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Movies-app-using-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b77aee56.css",
-    "static/js/main.1f16614c.js"
+    "static/css/main.abf548cf.css",
+    "static/js/main.c02796c7.js"
   ]
 }
