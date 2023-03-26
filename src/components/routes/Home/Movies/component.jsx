@@ -1,26 +1,22 @@
-import {connect} from "react-redux";
 import { useEffect } from "react";
 import Slider from "react-slick";
 
 import { generateUrl } from '../../../../helpers/utils';
-import { setMovies } from '../../../../store/movies/actions';
-import { selectMovies } from '../../../../store/movies/selector';
 import Movie from './Movie';
 
 import './styles.scss'
 
-const Movies=({getMovie, title, setMovies, movies})=>{
+const Movies=({getMovie, title,action, movies})=>{
 
   useEffect(()=>{
   fetch(generateUrl(getMovie))
       .then(res=>res.json())
-      .then(data=>{setMovies(data)})
+      .then(data=>{action(data)})
   },[getMovie])
 
   const sliderSettings = {
     dots: true,
     infinite: false,
-    arrows:false,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 2,
@@ -78,16 +74,7 @@ const Movies=({getMovie, title, setMovies, movies})=>{
       </section>
     </div>
   );
-
 }
 
-const mapStateToProps = state => ({
-  movies: selectMovies(state),
-})
-
-const mapDispatchToProps = {
-  setMovies,
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Movies);
+export default Movies;
 
