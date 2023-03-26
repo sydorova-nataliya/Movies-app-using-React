@@ -4,11 +4,11 @@
         margin: 10px 0;
     }
     &__input{
-        
         width: 40vw;
         border: 2px solid #7922CC;
         border-radius: 25px;
         padding: 1%;
+        margin-top: 1%;
     }
     &__submit{
         border: #4b167d;
@@ -25,5 +25,19 @@
             background-color: #7738b6;
             text-decoration: underline;
         }
+        @media screen and (max-width:1439px){
+            font-size:  1.8vw;
+          }
+         @media screen and (max-width : 1023px) {
+            font-size:  2vw;
+
+         }
+         @media screen and (max-width : 767px) {
+            font-size:  2.5vw;
+         }
+         @media screen and (max-width : 420px) {
+            font-size:  4vw;
+            padding: 10px 20px;
+         }
     }
 }

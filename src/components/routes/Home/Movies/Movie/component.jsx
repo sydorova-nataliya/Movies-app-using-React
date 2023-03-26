@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 
 import { calculatePopularity, convertDate, generateImageUrl, generateHref } from '../../../../../helpers/utils';
-
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import './styles.scss'
 
 const Movie=({id, title, poster_path,original_title, vote_average, release_date})=>{

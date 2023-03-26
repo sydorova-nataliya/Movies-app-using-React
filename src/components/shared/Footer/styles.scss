@@ -12,20 +12,59 @@
     margin-top: 40px;
     &__section{
         width: 90%;
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+         @media screen and (max-width : 1023px) {
+            width: 80%;
+            grid-template-columns: 60fr 40fr;
+         }
+         @media screen and (max-width : 767px) {
+            grid-template-columns: 1fr
+         }
+
     }
     &__title{
         text-transform: uppercase;
-        font-size: 1.2vw;
+        font-size: 1.5vw;
+        text-align: left;
+        margin-left: 1vw;
+        @media screen and (max-width:1439px){
+            font-size:  2.2vw;
+          }
+         @media screen and (max-width : 1023px) {
+            font-size:  3vw;
+         }
+         @media screen and (max-width : 767px) {
+            text-align: center;
+            font-size:  4vw;
+         }
+         @media screen and (max-width : 420px) {
+            font-size:  6vw;
+         }
     }
     .list{
         list-style: none;
-        padding: 0;
         margin: 0;
         font-size: 1vw;
+        text-align: left;
         &__contact-links{
             margin: 5px 0;
+            font-size: 1.3vw;
+            @media screen and (max-width:1439px){
+                font-size:  1.5vw;
+              }
+             @media screen and (max-width : 1023px) {
+                font-size:  2vw;
+             }
+             @media screen and (max-width : 767px) {
+                display: flex;
+                justify-content: center;
+                text-align: left;
+                font-size:  3.2vw;
+             }
+             @media screen and (max-width : 420px) {
+                font-size:  4.6vw;
+             }
         }
         &__contact-links a{
             color: white;

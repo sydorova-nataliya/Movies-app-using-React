@@ -6,19 +6,28 @@
     box-shadow: 0 0 0 7px rgb(118, 46, 177),
         0 0 0 14px rgba(118, 46, 177, 0.6),
         0 0 0 21px rgba(118, 46, 177, 0.4);
-     margin-bottom: 30px;
+
     &__title{
         font-size:  3vw;
-        background-image: url('../../../img/header-back.jpg');
-        background-size: cover;
-        background-position: center;
         padding: 5%;
         margin: 0;
         color: white;
          text-shadow: 3px 3px 3px black, 0 0 1em blue, 0 0 0.2em blue;
-    }
-    &__subtitle{
-        font-size:  1.5vw;
-        padding: 20px 5%;
+         @media screen and (max-width:1439px){
+            font-size:  6vw;
+            padding: 10%;
+          }
+         @media screen and (max-width : 1023px) {
+            font-size:  5vw;
+            padding: 9%;
+         }
+         @media screen and (max-width : 767px) {
+            font-size:  8vw;
+            padding: 12%;
+         }
+         @media screen and (max-width : 420px) {
+            font-size:  10vw;
+            padding: 15%;
+         }
     }
 }

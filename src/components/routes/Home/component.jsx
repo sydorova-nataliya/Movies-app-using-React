@@ -7,8 +7,9 @@ import './styles.scss';
 const Home=()=> (
   <>
     <Header />
-      <main>
+      <main className='main'>
         <Movies getMovie="popular" title="Popular movies"/>
+        <Movies getMovie="top_rated" title="Top rated"/>
       </main>
     <Footer />
   </>
