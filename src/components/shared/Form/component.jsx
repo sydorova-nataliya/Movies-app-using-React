@@ -30,13 +30,11 @@ const Form=()=>{
             onBlur={formik.handleBlur}
             value={formik.values.search}
           />
-
-          {formik.touched.search && formik.errors.search ? (
-            <div className='form__required'>{formik.errors.search}</div>
-          ) : null}
+          {
+            formik.touched.search && formik.errors.search ? (<div className='form__required'>{formik.errors.search}</div>) : null
+          }
           <button type="submit" className='form__submit'>Submit</button>
       </form>
-
     )
 }
 

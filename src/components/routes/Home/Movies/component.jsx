@@ -12,7 +12,7 @@ const Movies=({getMovie, title,action, movies})=>{
   fetch(generateUrl(getMovie))
       .then(res=>res.json())
       .then(data=>{action(data)})
-  },[getMovie])
+  },[])
 
   const sliderSettings = {
     dots: true,
@@ -61,16 +61,15 @@ const Movies=({getMovie, title,action, movies})=>{
     <div className='movies'>
       <h1 className='movies__title'>{title}</h1>
       <section className='movies__holder'>
-        
-          { movies.length===0 ? 'Loading...':
-            <Slider {...sliderSettings}>
-              {
-                movies.results.map((movie)=> 
-                <Movie key={movie.id}{...movie}/>)
-              }
-            </Slider>
+          { 
+            movies.length===0 ? 'Loading...':
+              <Slider {...sliderSettings}>
+                {
+                  movies.results.map((movie)=> 
+                  <Movie key={movie.id}{...movie}/>)
+                }
+              </Slider>
           }
-
       </section>
     </div>
   );

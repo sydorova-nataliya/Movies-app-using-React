@@ -13,5 +13,18 @@
         &:hover{
             text-shadow:0 0 2px rgb(146, 51, 146);
         }
+        @media screen and (max-width:1439px){
+            font-size:  2vw;
+          }
+        @media screen and (max-width : 1023px) {
+            margin: 5% ;
+            font-size:  3vw;
+         }
+         @media screen and (max-width : 767px) {
+            font-size:  4vw;
+         }
+         @media screen and (max-width : 420px) {
+            font-size:  5vw;
+         }
     }
 }

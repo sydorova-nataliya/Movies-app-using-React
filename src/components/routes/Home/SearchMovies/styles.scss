@@ -1,5 +1,12 @@
 .search{
-    padding: 0 5%;
+    padding:0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+     @media screen and (max-width : 1439px) {
+        grid-template-columns: 1fr;
+        grid-gap: 2vw;
+     }
 }
 .no-movies{
     margin: 15% 0;

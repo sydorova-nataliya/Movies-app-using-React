@@ -1,20 +1,48 @@
 .movie-details{
     display: flex;
     font-size: 1vw;
-    padding: 0 5% 1% 5%;
+    padding: 3% 5% 1% 5%;
+    @media screen and (max-width:1439px){
+        flex-wrap: wrap;
+        font-size:  2vw;
+      }
+    @media screen and (max-width : 1023px) {
+        padding: 5% ;
+        font-size:  3vw;
+     }
+     @media screen and (max-width : 767px) {
+        font-size:  4vw;
+     }
+     @media screen and (max-width : 420px) {
+        font-size:  5vw;
+     }
     .wrapper{
        display: inline-block;
        margin-left: 30px;
     }
     &__photo{
         width: 55%;
+        @media screen and (max-width:1439px){
+            width: 100%;
+          }
     }
     &__title{
         font-size: 2vw;
         font-weight: bold;
         text-decoration: none;
+        @media screen and (max-width:1439px){
+            font-size:  3vw;
+          }
+         @media screen and (max-width : 1023px) {
+            font-size:  4vw;
+         }
+         @media screen and (max-width : 767px) {
+            font-size:  5vw;
+         }
+         @media screen and (max-width : 420px) {
+            font-size:  6vw;
+         }
     }
-
     &__date{
         margin: 5px 0 10px 0;
         font-style: italic;

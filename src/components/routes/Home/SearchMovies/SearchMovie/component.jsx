@@ -5,7 +5,6 @@ import { calculatePopularity, convertDate, generateImageUrl, generateHref } from
 import './styles.scss'
 
 const SearchMovie=({id, title, poster_path,original_title, vote_average, release_date, overview})=>{
-
   return (
     <>
       <div className="movie-item">
@@ -19,7 +18,6 @@ const SearchMovie=({id, title, poster_path,original_title, vote_average, release
       </div>
     </>
   );
-
 }
 
 export default SearchMovie;

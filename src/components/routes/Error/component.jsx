@@ -12,5 +12,4 @@ const Error=()=>(
     </main>
   )
 
-
 export default Error;
