@@ -1,13 +1,13 @@
 .info{
-    background-color: rgb(102, 18, 102);
+    background-color: rgb(27, 1, 27);
     color: white;
     display: flex;
     flex-direction: column;
     margin: 0 0 2% 0;
-    box-shadow: 0 0 0 7px rgb(118, 46, 177),
-        0 0 0 14px rgba(118, 46, 177, 0.6),
-        0 0 0 21px rgba(118, 46, 177, 0.4);
-
+    box-shadow: 0 0 0 7px rgb(45, 13, 72),
+        0 0 0 14px rgba(88, 39, 127, 0.6),
+        0 0 0 21px rgba(148, 68, 214, 0.4);
+   position: relative;
     &__title{
         font-size:  3vw;
         padding: 5%;
@@ -30,5 +30,20 @@
             font-size:  10vw;
             padding: 15%;
          }
+    }
+    &__btn{
+      position: absolute;
+      right: 3%;
+      top:10%;
+      border: none;
+      border-radius: 25px;
+      background: black;
+      color: white;
+      font-size: 1vw;
+      padding: 0.5vw 1vw;
+      transition: .3s ease;
+      &:hover{
+         transform: scale(1.2);
+      }
     }
 }
